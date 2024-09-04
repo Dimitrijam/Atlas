@@ -1,0 +1,299 @@
+Here's a script for a clean, professional website that advertises properties for syndication under the name "Atlas Capital." This script is structured to highlight investment opportunities, the company’s mission, and key features of its offerings in a modern and engaging way.
+
+### Home Page (index.html)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atlas Capital - Expert Property Syndication for Savvy Investors">
+    <title>Atlas Capital | Property Syndication Experts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Atlas Capital</a>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#invest">Invest Now</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Maximize Your Wealth with Premier Property Syndication</h1>
+        <p>Join a community of savvy investors and gain access to high-yield real estate opportunities.</p>
+        <a href="#invest" class="cta-btn">Start Investing</a>
+    </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Atlas Capital</h2>
+        <p>Atlas Capital is a leading real estate syndication firm dedicated to providing high-quality commercial and residential property investments. Our mission is to empower investors by offering access to lucrative real estate opportunities backed by in-depth market expertise and strategic partnerships.</p>
+    </div>
+</section>
+
+<!-- Featured Properties -->
+<section id="properties" class="properties">
+    <div class="container">
+        <h2>Featured Properties</h2>
+        <div class="property-list">
+            <!-- Property 1 -->
+            <div class="property-card">
+                <img src="property1.jpg" alt="Luxury Apartment Complex">
+                <h3>Luxury Apartment Complex</h3>
+                <p>Location: Austin, TX</p>
+                <p>Yield: 8% projected annual return</p>
+                <a href="#" class="details-btn">View Details</a>
+            </div>
+            <!-- Property 2 -->
+            <div class="property-card">
+                <img src="property2.jpg" alt="Office Building">
+                <h3>Class A Office Building</h3>
+                <p>Location: Seattle, WA</p>
+                <p>Yield: 7.5% projected annual return</p>
+                <a href="#" class="details-btn">View Details</a>
+            </div>
+            <!-- Property 3 -->
+            <div class="property-card">
+                <img src="property3.jpg" alt="Mixed-Use Development">
+                <h3>Mixed-Use Development</h3>
+                <p>Location: Miami, FL</p>
+                <p>Yield: 9% projected annual return</p>
+                <a href="#" class="details-btn">View Details</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Process -->
+<section id="process" class="process">
+    <div class="container">
+        <h2>Our Syndication Process</h2>
+        <div class="process-steps">
+            <div class="step">
+                <h3>Step 1: Property Identification</h3>
+                <p>Our team conducts thorough research to identify high-potential properties in key growth markets.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2: Due Diligence</h3>
+                <p>We perform extensive due diligence, including financial analysis, inspections, and market assessments to ensure solid investment choices.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3: Investor Syndication</h3>
+                <p>Investors are pooled together to purchase high-value properties, allowing participation in large-scale real estate opportunities.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4: Ongoing Management</h3>
+                <p>Our experienced asset management team oversees daily operations, ensuring each property performs to its full potential.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Interested in learning more about our syndication opportunities? Get in touch with our team today!</p>
+        <form action="#" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Call to Action - Invest Now -->
+<section id="invest" class="cta-invest">
+    <div class="container">
+        <h2>Ready to Invest?</h2>
+        <p>Join Atlas Capital and unlock exclusive access to top-tier real estate syndication deals. Start your journey to wealth creation today.</p>
+        <a href="#" class="cta-btn">Invest Now</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Atlas Capital. All Rights Reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
+```
+
+### CSS (styles.css)
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background-color: #e64a19;
+}
+
+.about,
+.properties,
+.process,
+.contact,
+.cta-invest {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.property-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.property-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    width: 100%;
+    height: auto;
+}
+
+.property-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 45%;
+    margin: 20px 0;
+    text-align: left;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-links {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text
